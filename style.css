@@ -1,0 +1,109 @@
+
+
+
+.header {background-color: bisque;
+    margin-left: 0%;
+    padding: 20px;
+    line-height: 1.cm;
+    
+
+}
+
+.heading {
+    font-size: 70px;
+    font-style:inherit;
+
+}
+.he {
+    background-color: bisque;
+    margin-left: 1%;
+    padding-left: 0%;
+    
+}
+.picandlinks{
+    background-color:black;
+    flex-shrink: 4;
+    flex-basis: 100px;
+    width: 25%;  
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 1;
+    border: 5px solid ;
+    display: flex;
+    flex-direction: row;
+    
+
+}
+ .picture{
+    display:block ;
+    width: 80%;
+    max-width: 500px;
+    border: 8px solid black;
+    margin: 40px auto; width:200px;
+    height:200px;
+    border-radius:50%;
+    border: 10px solid burlywood;
+    padding: 10px;
+
+}
+.picture >* {
+    max-width: 100%;
+}
+ .hero-image{
+    background-color:palegreen;
+    background-image: url("thnd.jpg") ;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    color:black;
+    background-blend-mode: lighten ;
+ }
+ /***********mobile******/
+@media (max-width: 600px) {
+    .mild{
+        background-color: yellowgreen;
+        p {
+            font-size:1rem ;
+        }
+        .hero-image{
+            background-blend-mode: multipy ;
+        }
+
+    }
+ }
+
+/***********tablet*****/
+    
+ @media screen  (max-width: 800px) {
+    .mild{ font-size: medium;
+        background-color: blueviolet;
+        
+    }
+ }
+
+/*********laptop******/
+@media (min-width: 800px) {
+    .container{
+        P{
+            font-size:0.5em ;
+        }
+    .contant{
+            display: grid ;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+         }
+    }
+}
+    
+        
+     
+     
+ 
+
+
